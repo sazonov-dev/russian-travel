@@ -1,0 +1,12 @@
+.page__button {
+    border: none;
+    outline: none;
+    background: none;
+    color: #FFFFFF;
+    font-style: 28px;
+    cursor: pointer;
+}
+
+.page__button:hover {
+    text-decoration: underline;
+}
