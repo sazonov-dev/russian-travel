@@ -1,0 +1,12 @@
+.cover__background-title {
+    position: absolute;
+    max-width: 560px;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}

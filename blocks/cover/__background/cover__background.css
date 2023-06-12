@@ -1,0 +1,24 @@
+.cover__background {
+    position: relative;
+    margin: 0 auto;
+    background-image: url("../../../images/cover/__background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1184px;
+    height: 740px;
+    z-index: 0;
+}
+
+.cover__background::after {
+    content: '';
+    position: absolute;
+    background-color: #2A2C2F;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.cover__background:hover::after {
+    opacity: 0.8;
+}

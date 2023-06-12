@@ -1,0 +1,9 @@
+.places__card-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 163%;
+}
+
+.places__card-text:not(:last-child) {
+    margin-bottom: 26px;
+}
