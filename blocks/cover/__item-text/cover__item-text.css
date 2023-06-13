@@ -1,0 +1,5 @@
+.cover__item-text {
+    position: relative;
+    max-width: 360px;
+    z-index: 3;
+}

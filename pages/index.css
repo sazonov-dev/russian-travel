@@ -29,9 +29,9 @@
 @import url("../blocks/places/__card-content-img/places__card-content-img.css");
 @import url("../blocks/places/__card-text/places__card-text.css");
 @import url("../blocks/cover/cover.css");
-@import url("../blocks/cover/__background/cover__background.css");
-@import url("../blocks/cover/__background-title/cover__background-title.css");
-@import url("../blocks/cover/__background-text/cover__background-text.css");
+@import url("../blocks/cover/__item/cover__item.css");
+@import url("../blocks/cover/__item-title/cover__item-title.css");
+@import url("../blocks/cover/__item-text/cover__item-text.css");
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
