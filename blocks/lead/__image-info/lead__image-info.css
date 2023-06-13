@@ -1,6 +1,5 @@
 .lead__image-info {
-    position: absolute;
-    left: 0;
+    text-align: left;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
