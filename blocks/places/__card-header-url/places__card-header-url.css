@@ -1,7 +1,9 @@
-.places__card-header-url {
-    position: relative;
-    max-height: 46px;
-    font-size: 18px;
-    line-height: 22px;
-    color: #ffffff
+@media screen and (min-width: 320px) {
+    .places__card-header-url {
+        position: relative;
+        max-height: 46px;
+        font-size: 18px;
+        line-height: 22px;
+        color: #ffffff
+    }
 }

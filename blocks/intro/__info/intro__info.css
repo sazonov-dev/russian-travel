@@ -1,6 +1,8 @@
-.intro__info {
-    margin: 0;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
+@media screen and (min-width: 320px) {
+    .intro__info {
+        margin: 0;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+    }
 }

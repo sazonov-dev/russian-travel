@@ -1,11 +1,25 @@
-.page__button {
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 24px;
-    line-height: 28px;
-    color: #FFFFFF;
-    cursor: pointer;
+@media screen and (min-width: 320px) {
+    .page__button {
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page__button {
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }    
 }
 
 .page__button:hover {
