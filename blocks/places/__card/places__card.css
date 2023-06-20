@@ -1,7 +1,5 @@
-@media screen and (min-width: 320px) {
-    .places__card:not(:last-child) {
-        margin-bottom: 50px;
-    }
+.places__card:not(:last-child) {
+    margin-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -11,12 +9,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .places__card:not(:last-child) {
-        margin-bottom: 80px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
     .places__card:not(:last-child) {
         margin-bottom: 80px;
     }

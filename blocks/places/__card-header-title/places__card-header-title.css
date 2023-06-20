@@ -1,19 +1,16 @@
-@media screen and (min-width: 320px) {
-    .places__card-header-title {
-        margin: 0;
-        width: 288px;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
-        margin-bottom: 32px;
-    }
+.places__card-header-title {
+    margin: 0;
+    max-width: 288px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
     .places__card-header-title {
         margin: 0;
-        width: 340px;
-        font-weight: 900;
+        min-width: 340px;
         font-size: 42px;
         line-height: 46px;
         margin-right: 28px;
@@ -22,9 +19,7 @@
 
 @media screen and (min-width: 1024px) {
     .places__card-header-title {
-        margin: 0;
-        width: 440px;
-        font-weight: 900;
+        min-width: 440px;
         font-size: 72px;
         line-height: 76px;
         margin-right: 32px;
@@ -33,11 +28,7 @@
 
 @media screen and (min-width: 1280px) {
     .places__card-header-title {
-        margin: 0;
-        width: 460px;
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 76px;
+        min-width: 460px;
         margin-right: 40px;
     }
 }

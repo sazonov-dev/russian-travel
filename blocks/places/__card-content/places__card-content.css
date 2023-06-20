@@ -1,24 +1,10 @@
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .places__card-content {
-        display: flex;
-        flex-direction: column;
-    }
+.places__card-content {
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
     .places__card-content {
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .places__card-content {
-        display: flex;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .places__card-content {
-        display: flex;
+        flex-direction: row;
     }
 }

@@ -1,6 +1,4 @@
-@media screen and (min-width: 320px) {
-    .lead__image-content {
-        object-fit: cover;
-        width: 100%;
-    }
+.lead__image-content {
+    object-fit: cover;
+    width: 100%;
 }

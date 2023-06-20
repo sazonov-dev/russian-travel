@@ -1,173 +1,51 @@
-@media screen and (min-width: 320px) {
-    .cover__item {
-        margin: 0 auto;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 200px;
-        width: 100%;
-        background-image: url("../../../images/cover/__background.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        z-index: 1; 
-        text-decoration: none;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .cover__item::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.3;
-        z-index: 2;
-    }
-    
-    .cover__item:hover::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.8;
-        z-index: 2;
-    }
+.cover__item {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    width: 100%;
+    background-image: url("../../../images/cover/__background.jpg");
+    background-size: cover;
+    z-index: 1; 
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cover__item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: 2;
+}
+
+.cover__item:hover::before {
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
     .cover__item {
-        margin: 0 auto;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         min-height: 480px;
-        width: 100%;
-        background-image: url("../../../images/cover/__background.jpg");
-        background-size: cover;
-        z-index: 1; 
-        text-decoration: none;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .cover__item::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.3;
-        z-index: 2;
-    }
-    
-    .cover__item:hover::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.8;
-        z-index: 2;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover__item {
-        margin: 0 auto;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         min-height: 640px;
-        width: 100%;
-        background-image: url("../../../images/cover/__background.jpg");
-        background-size: cover;
-        z-index: 1; 
-        text-decoration: none;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .cover__item::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.3;
-        z-index: 2;
-    }
-    
-    .cover__item:hover::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.8;
-        z-index: 2;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .cover__item {
-        margin: 0 auto;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         min-height: 740px;
         max-width: 1184px;
-        background-image: url("../../../images/cover/__background.jpg");
-        background-size: cover;
-        z-index: 1; 
-        text-decoration: none;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .cover__item::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.3;
-        z-index: 2;
-    }
-    
-    .cover__item:hover::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background-color: #2A2C2F;
-        opacity: 0.8;
-        z-index: 2;
     }
 }

@@ -1,19 +1,7 @@
-@media screen and (min-width: 320px) {
-    .places__card-header-info-url {
-        font-size: 12px;
-        line-height: 12px;
-        letter-spacing: 2px;
-        color: #AAAAAA;
-        margin-bottom: 12px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .places__card-header-info-url {
-        font-size: 12px;
-        line-height: 12px;
-        letter-spacing: 2px;
-        color: #AAAAAA;
-        margin-bottom: 12px;
-    }
+.places__card-header-info-url {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin-bottom: 12px;
 }

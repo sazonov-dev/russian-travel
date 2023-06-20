@@ -1,20 +1,16 @@
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .footer {
-        padding: 0 0 24px 16px;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 310px;
-    }
+.footer {
+    padding: 0 0 24px 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
         padding: 0 24px 24px 24px;
-        margin: 0 auto;
-        display: flex;
         justify-content: space-between;
+        flex-direction: row;
         align-items: center;
     }
 }
