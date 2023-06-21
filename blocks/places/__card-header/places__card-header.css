@@ -1,6 +1,4 @@
 .places__card-header {
-    display: flex;
-    flex-direction: column;
     margin-left: 16px;
     margin-bottom: 32px;
 }
@@ -8,7 +6,6 @@
 @media screen and (min-width: 768px) {
     .places__card-header {
         margin: 0;
-        flex-direction: row;
         align-items: flex-end;
         margin-bottom: 48px;
     }
