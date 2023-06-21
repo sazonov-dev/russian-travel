@@ -1,0 +1,7 @@
+.header__language_btn {
+    list-style-type: none;
+}
+
+.header__language_btn:first-child {
+    margin-right: 18px;
+}

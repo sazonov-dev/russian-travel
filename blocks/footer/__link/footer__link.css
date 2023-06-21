@@ -23,4 +23,8 @@
         margin: 0;
         margin-right: 18px;
     }
+
+    .footer__link:last-child {
+        margin: 0;
+    }
 }

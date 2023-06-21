@@ -1,11 +1,10 @@
 .page__button {
-    border: none;
-    outline: none;
-    background: none;
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;
     cursor: pointer;
+    padding: 0;
+    border-bottom: 2px solid transparent;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,5 +15,5 @@
 }
 
 .page__button:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #FFFFFF;
 }
