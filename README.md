@@ -18,4 +18,4 @@
 
 **Ссылка на GitHub Pages**
 
-<a href="#">COMING SOON...</a>
+<a href="https://sazonov-dev.github.io/russian-travel/">https://sazonov-dev.github.io/russian-travel/</a>
