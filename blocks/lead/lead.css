@@ -2,25 +2,16 @@
     margin: 0 auto;
     text-align: center;
     margin-bottom: 64px;
-    max-height: 406px;
 }
 
 @media screen and (min-width: 768px) {
     .lead {
         margin-bottom: 88px;
-        max-height: 862px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .lead {
         margin-bottom: 92px;
-        max-height: 962px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .lead {
-        max-height: 1005px;
     }
 }

@@ -4,13 +4,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 310px;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
         padding: 0 24px 24px 24px;
-        justify-content: space-between;
         flex-direction: row;
         align-items: center;
         max-width: 720px;

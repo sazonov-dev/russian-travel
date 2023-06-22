@@ -1,0 +1,10 @@
+.header__language-link:first-child {
+    margin-right: 18px;
+}
+
+.header__language-link {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    cursor: pointer;
+}
