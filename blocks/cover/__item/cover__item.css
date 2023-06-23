@@ -9,6 +9,7 @@
     width: 100%;
     background-image: url("../../../images/cover/__background.jpg");
     background-size: cover;
+    background-position: center;
     z-index: 1; 
     text-decoration: none;
     text-align: center;
